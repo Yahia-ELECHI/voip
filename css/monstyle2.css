@@ -1,0 +1,158 @@
+
+
+/******************************  commun ************************ */
+
+.espace60 {
+	margin-top: 60px;
+}
+
+.espace20 {
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.top-menu {
+    clear: both;
+    background: red;
+    width: 200px;  /* +20px? */
+    height: 20px;
+    position: relative;
+    /*
+    margin-left: -10px;
+    margin-right: -10px;
+    */
+}
+
+.containerchart { 
+ 
+	position: relative; 
+	width: 100%; 
+	padding-top: 56.25%; /* 16:9 Aspect Ratio */ 
+} 
+
+body {
+	background-color: rgb(240, 238, 238);
+	font-size: 16px;
+}
+
+.monstylefont {
+	font-size: 10px;
+	font-family: "Times New Roman", Times, serif;
+	margin: 20px 0;
+	font-weight: bold;
+	color: #000;
+}
+
+.input-container {
+	position: relative;
+}
+
+.etoile {
+	position: absolute;
+	font-size: 25px;
+	right: 7px;
+	top: 5px;
+	color: #f21a12;
+}
+
+/*  *************************** end commun ******************* */
+
+/* start user-page */
+
+.user-page h1 {
+	color: #5cb85c;
+}
+
+.user-page form, .the-errors {
+	max-width: 360px;
+	margin: auto;
+}
+
+.user-page form input {
+	margin-bottom: 10px;
+}
+
+.the-errors .msg {
+	padding: 10px;
+	text-align: left;
+	border-left: 5px solid #cd6858;
+	background-color: #fff;
+	margin-bottom: 8px;
+	border-right: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	color: #919191;
+}
+
+.the-errors .error {
+	border-left: 20px solid #cd6858;
+}
+
+.the-errors .succes {
+	border-left: 20px solid #2ecc71;
+}
+
+/********************* end user-page ********************/
+
+
+/* ******************* strat edit pwd page ****************** */
+.editpwd-page h1, h2 {
+	color: #337ab7;
+}
+
+.editpwd-page h1, h2 {
+	font-size: 40px;
+}
+
+.editpwd-page h2 {
+	font-size: 35px;
+	margin: 20px 0;
+	font-weight: bold;
+}
+
+.editpwd-page form {
+	max-width: 360px;
+	margin: auto;
+}
+
+.editpwd-page form input {
+	margin-bottom: 10px;
+}
+
+.show-newpwd, .show-oldpwd {
+	position: absolute;
+	top: 1px;
+	right: -36px;
+}
+
+.form-control {
+	position: relative;
+}
+/* ******************* end edit pwd page ******************** */
+
+
+/* ******************* Table horizontal scroll ******************** */
+.table-hscroll {
+max-width: 600px;
+margin: 0 auto;
+}
+#table-hscroll th, td {
+white-space: nowrap;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+
+
+
